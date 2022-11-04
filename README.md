@@ -3,7 +3,7 @@ Automatic GitHub webhook that adds branch protection and notification of a new b
 
 ![undefined](https://user-images.githubusercontent.com/22108519/178094290-4b100767-7bf4-492b-993b-9a2863185c06.png)
 
-Github Repo is created > Sends a payload to the API gateway, API gateway transmit's the payload to the lambda function, which inturn return's a REST api call to set branch protections and mention a username that the needful has been done. 
+GitHub Repo is created > Sends a payload to the API gateway, API gateway transmit's the payload to the lambda function, which inturn return's a REST api call to set branch protections and mention a username that the needful has been done. 
 
 Built off the original https://github.com/zkoppert/Auto-branch-protect and the great work done by https://github.com/learnazcloud/Auto-branch-protect I decided to clean it up and make it serverless, using just two services, lambda and api gateway. This is a low cost, easy to utilize webhook to manage your organizations GitHub security needs. 
 
